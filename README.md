@@ -1,5 +1,10 @@
 # Legal Aid Alberta Revamped Site Example
 
-I took a weekend sometime last year to put together a demo first page for Legal Aid Alberta. Below is what their website looked like at the time I made the demo.
+I took a weekend sometime last year to put together a demo first page for Legal Aid Alberta. 
 
-![Old LAA Screenshot](https://github.com/nobledm/laa-sample/blob/master/img/laa-current.JPG?raw=true "Old LAA Website Design")
+| My Design | Old Design |
+| --------- |:---------- |
+| ![My Design][myDesign] | ![Old LAA Screenshot][oldLAA] |
+
+[myDesign]: https://github.com/nobledm/laa-sample/blob/master/img/laa-new.JPG?raw=true "My LAA Design"
+[oldLAA]: https://github.com/nobledm/laa-sample/blob/master/img/laa-current.JPG?raw=true "Old LAA Website Design"
