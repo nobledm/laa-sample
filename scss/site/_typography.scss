@@ -1,0 +1,59 @@
+body {
+    font-family: $body-font;
+    color: $dark-grey;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $title-font;
+    line-height: 3rem;
+}
+
+h1 { 
+    font-size: $h1;
+    margin-bottom: 1.5rem;
+}
+
+h2 { font-size: $h2; }
+h3 { font-size: $h3; }
+
+h4 {
+    font-family: $title-font;
+    font-size: $h4;
+    line-height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: $red;
+
+    &:hover,
+    &:active { color: $yellow; }
+}
+
+@media only screen and (min-width:37.5rem) { 
+    h1 { 
+        font-size: $h1-md; 
+        line-height: 4.5rem;
+    }
+
+    h2 { font-size: $h2-md; }
+    h3 { font-size: $h3-md; }
+
+    h4 { 
+        font-size: $h4-md; 
+        line-height: 3rem;
+    }
+}
+
+@media only screen and (min-width: 72rem) {
+    h1 { font-size: $h1-lg; }
+
+    h2 { 
+        font-size: $h2-lg;
+        line-height: 4.5rem;
+    }
+
+    h3 { font-size: $h3-lg; }
+}

@@ -1,0 +1,26 @@
+.inner-wrapper {
+    max-width: 87.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+}
+
+.note {
+    display: inline-block;
+    border: 0.125rem solid $blue;
+    border-radius: 0.25rem;
+    background: $lightest-blue;
+    padding: 0.625rem 0.5rem;
+    color: #111;
+}
+
+.d-block { display: block; }
+.mb-0 { margin-bottom: 0; }
+.mb-2 { margin-bottom: 3rem; }
+
+.bold { font-weight: 700; }
+
+.smaller { 
+    font-size: 0.8em;
+    line-height: 1.458rem;
+}

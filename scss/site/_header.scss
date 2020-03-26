@@ -1,0 +1,73 @@
+.site-header { 
+    margin-bottom: 1.5rem; 
+    padding: 13.5rem 0 3rem;
+    background-color: $red;
+    background: url('../img/Bermuda-Circle.svg');
+    background-size: cover;
+    color: $off-white;
+
+    .intro { 
+        max-width: 36.25rem;
+        margin-bottom: 1.5rem; 
+    }
+
+    .call-action-eligible { margin: 0 1.5rem 1.5rem 0; }
+
+    .call-action-contact {
+        background-color: $dark-blue;
+        width: 14.696rem;
+        text-align: center;
+
+        &:hover {
+            background-color: $blue;
+        }
+    }
+}
+
+.quick-info {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0.5rem 0;
+    background: $off-white;
+    color: $dark-grey;
+    z-index: 110;
+    border-bottom: 1px solid $grey;
+
+    .icon {
+        width: 1.5rem;
+        margin-right: 0.5rem;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        line-height: 2rem;
+    }
+}
+
+@media only screen and (min-width:37.5rem) {
+    .site-header { 
+        padding: 10.5rem 0 1.5rem; 
+        margin-bottom: 3rem;
+    }
+
+    .quick-info .inner-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        li:last-child { flex: 1 1 100% }
+    }
+}
+
+@media only screen and (min-width:54.688rem) {
+    .site-header { padding-top: 9rem; }
+
+    .quick-info .inner-wrapper {
+        flex-wrap: nowrap;
+
+        li:last-child { flex: 0 1 auto; }
+    }
+}

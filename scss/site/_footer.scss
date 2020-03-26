@@ -1,0 +1,117 @@
+.site-footer {
+    position: relative;
+    background-color: $grey;
+    color: $off-white;
+    padding-top: 1.5rem;
+
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: -3.125rem;
+        height: 3.125rem;
+        width: 100%;
+        background: url('../img/diversity-stripe.jpg') repeat-x;
+    }
+
+    .locations {
+        margin-bottom: 3rem;
+
+        & > div { margin-bottom: 1.5rem; }
+    }
+
+    .locations > .calgary,
+    .calgary > p:last-child { 
+        margin-bottom: 0; 
+    }
+
+    p { margin-bottom: 1.5rem; }
+    .contact > p:last-child { margin-bottom: 3rem; }
+
+    .locations p > span,
+    .contact .hours > span { 
+        margin-left: 1rem; 
+    }
+
+    a { 
+        color: $light-yellow; 
+
+        &:hover { color: $lightest-yellow; }
+    }
+}
+
+@media only screen and (min-width: 54.688rem) {
+    .site-footer .inner-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .foot-links { flex: 1 1 100%; }
+}
+
+@media only screen and (min-width: 68rem) {
+    .site-footer {
+       .locations {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 0;
+
+            .edmonton { margin-right: 3rem; }
+
+            h4 { flex: 1 1 100%; }
+        }
+    }
+
+    .site-footer h4 { 
+        border-bottom: 1px solid $lightest-grey;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 80rem) {
+    .site-footer .locations .edmonton { margin-right: 7rem; }
+}
+
+.foot-links {
+    width: 100%;
+    border-top: 1px solid $light-grey;
+    font-size: $note;
+
+    ul > li > a {
+        display: block;
+        line-height: 3rem;
+    }
+
+    p { margin-bottom: 0; }
+}
+
+@media only screen and (min-width:28.125rem) {
+    .foot-links ul { 
+        display: flex;
+
+        li { 
+            position: relative;
+            margin: 0 1rem; 
+        }
+        li:after {
+            content: '|';
+            position: absolute;
+            top:30%;
+            right: -1rem;
+        }
+        li:first-child { margin-left: 0; }
+        li:last-child:after { content: ''; }
+    }
+
+    .foot-links p { line-height: 3rem; }
+}
+
+@media only screen and (min-width:53.125rem) {
+    .foot-links {
+        display: flex;
+        justify-content: space-between;
+
+        ul { margin-bottom: 0; }
+    }
+}

@@ -1,0 +1,22 @@
+/* LAA COLORS */
+$red: rgb(197,15,60);
+$grey: rgb(112,114,113);
+$blue: rgb(77,134,142);
+$yellow: rgb(164,142,49);
+
+/* TEXT COLORS */
+$off-white: #fafafa;
+
+/* DERIVATIVES */
+$light-red: lighten($red, 30%);
+
+$lightest-blue: lighten($blue, 45%);
+$dark-blue: darken($blue, 5%);
+
+$lightest-yellow: lighten($yellow, 45%);
+$light-yellow: lighten($yellow, 30%);
+$dark-yellow: darken($yellow, 10%);
+
+$lightest-grey: lighten($grey, 44.5%);
+$light-grey: lighten($grey, 20%);
+$dark-grey: darken($grey, 12%);

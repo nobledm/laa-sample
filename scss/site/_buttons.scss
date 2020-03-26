@@ -1,0 +1,17 @@
+button,
+.button {
+    display: inline-block;
+    padding: 0.5rem 0.9rem;
+    line-height: 2rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: $dark-yellow;
+    color: $off-white;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: $yellow;
+        color: $off-white;
+        text-decoration: none;
+    }
+}
